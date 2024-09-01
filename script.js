@@ -25,6 +25,8 @@ btn.addEventListener("click", () => {
     closeBtn.style.padding = "5px";
     closeBtn.style.borderRadius = "3px";
     closeBtn.style.display = "inline-block";
+	closeBtn.setAttribute("class", "delete")
+	
 	closeBtn.addEventListener("click", () => {
 		tr.remove();
 	})
