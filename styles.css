@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+body{
+	margin: 0;
+	padding: 0;
+}
+.conatiner{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	margin: 20px 0;
+	padding: 20px;
+}
+.form-group > div{
+	margin: 5px 0;
+}
+label{
+	display: block;
+	margin-bottom: 5px;
+}
+.title-div{
+	display: flex;
+	flex-direction: column;
+}
+.author-div{
+	display: flex;
+	flex-direction: column;
+}
+.isbn-div{
+	display: flex;
+	flex-direction: column;
+}
+#submit{
+	color: white;
+	background-color: blue;
+	border: 0;
+	margin-bottom: 25px;
+	width: 20vmin;
+	height: 8vmin;
+	border-radius: 5px;
+}
+#highlight{
+	color: blue;
+}
+table {
+	border-collapse: collapse;
+}
+th{
+	text-align: left;
+	border-bottom: 2px solid black;
+}
