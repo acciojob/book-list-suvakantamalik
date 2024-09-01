@@ -50,4 +50,12 @@ table {
 th{
 	text-align: left;
 	border-bottom: 2px solid black;
+	width: 400px;
 }
+
+#space{
+	width: 20px;
+}
+
+
+
